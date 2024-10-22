@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the application */
+.App {
+  @apply bg-gray-100 min-h-screen;
+}
+
+.login-container {
+  @apply flex flex-col items-center justify-center h-screen;
+}
+
+.dashboard-container {
+  @apply p-4;
+}
+
+.inventory-container {
+  @apply p-4;
+}
